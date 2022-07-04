@@ -35,6 +35,15 @@
 		B7BCDFDA28734A1300225F40 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFA328734A1300225F40 /* Request.swift */; };
 		B7BCDFE128734A1300225F40 /* RemoteGetUsersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFAD28734A1300225F40 /* RemoteGetUsersUseCase.swift */; };
 		B7BCDFE628734BC000225F40 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFE528734BC000225F40 /* Users.swift */; };
+		B7BCDFF3287355EA00225F40 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFF1287355EA00225F40 /* MockURLProtocol.swift */; };
+		B7BCDFF4287355EA00225F40 /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFF2287355EA00225F40 /* URLRequestExtension.swift */; };
+		B7BCE00E287355F300225F40 /* RemoteGetUsersClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFFD287355F300225F40 /* RemoteGetUsersClientTests.swift */; };
+		B7BCE00F287355F300225F40 /* NativeHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFFF287355F300225F40 /* NativeHTTPClientTests.swift */; };
+		B7BCE014287355F300225F40 /* GetUsersRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCE005287355F300225F40 /* GetUsersRequestTests.swift */; };
+		B7BCE032287355FB00225F40 /* RemoteGetUsersClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCE01E287355FB00225F40 /* RemoteGetUsersClient.swift */; };
+		B7BCE034287355FB00225F40 /* NativeHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCE021287355FB00225F40 /* NativeHTTPClient.swift */; };
+		B7BCE035287355FB00225F40 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCE022287355FB00225F40 /* NetworkManager.swift */; };
+		B7BCE039287355FB00225F40 /* GetUsersRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCE027287355FB00225F40 /* GetUsersRequest.swift */; };
 		CB2CED280E3B15D023FEAD37 /* Pods_MuuvChallengeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F39FF5108A78E9FA74D21 /* Pods_MuuvChallengeApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +98,15 @@
 		B7BCDFA328734A1300225F40 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		B7BCDFAD28734A1300225F40 /* RemoteGetUsersUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteGetUsersUseCase.swift; sourceTree = "<group>"; };
 		B7BCDFE528734BC000225F40 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		B7BCDFF1287355EA00225F40 /* MockURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		B7BCDFF2287355EA00225F40 /* URLRequestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestExtension.swift; sourceTree = "<group>"; };
+		B7BCDFFD287355F300225F40 /* RemoteGetUsersClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteGetUsersClientTests.swift; sourceTree = "<group>"; };
+		B7BCDFFF287355F300225F40 /* NativeHTTPClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeHTTPClientTests.swift; sourceTree = "<group>"; };
+		B7BCE005287355F300225F40 /* GetUsersRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersRequestTests.swift; sourceTree = "<group>"; };
+		B7BCE01E287355FB00225F40 /* RemoteGetUsersClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteGetUsersClient.swift; sourceTree = "<group>"; };
+		B7BCE021287355FB00225F40 /* NativeHTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeHTTPClient.swift; sourceTree = "<group>"; };
+		B7BCE022287355FB00225F40 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B7BCE027287355FB00225F40 /* GetUsersRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersRequest.swift; sourceTree = "<group>"; };
 		B843D18BFB7A2A9A7889514A /* Pods-MuuvChallengeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeAppTests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeAppTests/Pods-MuuvChallengeAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		D74F792A1FCCF6DAF17CFA4A /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppUITests/Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB5038BFF894A9491CAA6F86 /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppUITests/Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +169,7 @@
 			children = (
 				B7BCDF9E28734A1300225F40 /* Data */,
 				B7BCDF6E28734A1300225F40 /* Domain */,
+				B7BCE017287355FB00225F40 /* Infra */,
 				B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */,
 				B7BCDED82873486B00225F40 /* ContentView.swift */,
 				B7BCDEDA2873486C00225F40 /* Assets.xcassets */,
@@ -172,6 +191,7 @@
 			children = (
 				B7BCDF28287349FE00225F40 /* Data */,
 				B7BCDF09287349FE00225F40 /* Domain */,
+				B7BCDFF5287355F300225F40 /* Infra */,
 				B7BCDF3A287349FE00225F40 /* Mock */,
 				B7BCDEE72873486D00225F40 /* MuuvChallengeAppTests.swift */,
 			);
@@ -241,6 +261,7 @@
 		B7BCDF3A287349FE00225F40 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
+				B7BCDFEF287355EA00225F40 /* Infra */,
 				B7BCDF3F287349FE00225F40 /* Data */,
 			);
 			path = Mock;
@@ -343,6 +364,93 @@
 				B7BCDFAD28734A1300225F40 /* RemoteGetUsersUseCase.swift */,
 			);
 			path = Remote;
+			sourceTree = "<group>";
+		};
+		B7BCDFEF287355EA00225F40 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFF0287355EA00225F40 /* Network */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		B7BCDFF0287355EA00225F40 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFF1287355EA00225F40 /* MockURLProtocol.swift */,
+				B7BCDFF2287355EA00225F40 /* URLRequestExtension.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B7BCDFF5287355F300225F40 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFF6287355F300225F40 /* Remote Clients */,
+				B7BCDFFE287355F300225F40 /* Network */,
+				B7BCE000287355F300225F40 /* Request */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		B7BCDFF6287355F300225F40 /* Remote Clients */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFFD287355F300225F40 /* RemoteGetUsersClientTests.swift */,
+			);
+			path = "Remote Clients";
+			sourceTree = "<group>";
+		};
+		B7BCDFFE287355F300225F40 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFFF287355F300225F40 /* NativeHTTPClientTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B7BCE000287355F300225F40 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCE005287355F300225F40 /* GetUsersRequestTests.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		B7BCE017287355FB00225F40 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCE018287355FB00225F40 /* RemoteClients */,
+				B7BCE020287355FB00225F40 /* Network */,
+				B7BCE023287355FB00225F40 /* Request */,
+			);
+			name = Infra;
+			path = ../../EcommerceApp/WhiteLabelECommerce/Shared/Infra;
+			sourceTree = "<group>";
+		};
+		B7BCE018287355FB00225F40 /* RemoteClients */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCE01E287355FB00225F40 /* RemoteGetUsersClient.swift */,
+			);
+			path = RemoteClients;
+			sourceTree = "<group>";
+		};
+		B7BCE020287355FB00225F40 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCE021287355FB00225F40 /* NativeHTTPClient.swift */,
+				B7BCE022287355FB00225F40 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B7BCE023287355FB00225F40 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCE027287355FB00225F40 /* GetUsersRequest.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		CCC4198A02D98066E77666DA /* Pods */ = {
@@ -590,8 +698,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7BCDFD928734A1300225F40 /* HTTPError.swift in Sources */,
+				B7BCE034287355FB00225F40 /* NativeHTTPClient.swift in Sources */,
 				B7BCDFD728734A1300225F40 /* HTTPMethod.swift in Sources */,
 				B7BCDFB528734A1300225F40 /* Model.swift in Sources */,
+				B7BCE035287355FB00225F40 /* NetworkManager.swift in Sources */,
 				B7BCDFBB28734A1300225F40 /* GetUsersUseCase.swift in Sources */,
 				B7BCDFE628734BC000225F40 /* Users.swift in Sources */,
 				B7BCDFB128734A1300225F40 /* TypeAlias.swift in Sources */,
@@ -599,8 +709,10 @@
 				B7BCDFE128734A1300225F40 /* RemoteGetUsersUseCase.swift in Sources */,
 				B7BCDED92873486B00225F40 /* ContentView.swift in Sources */,
 				B7BCDFDA28734A1300225F40 /* Request.swift in Sources */,
+				B7BCE032287355FB00225F40 /* RemoteGetUsersClient.swift in Sources */,
 				B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */,
 				B7BCDFD828734A1300225F40 /* HTTPClient.swift in Sources */,
+				B7BCE039287355FB00225F40 /* GetUsersRequest.swift in Sources */,
 				B7BCDFC528734A1300225F40 /* DomainError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,12 +724,17 @@
 				B7BCDF6C287349FE00225F40 /* MockHTTPClient.swift in Sources */,
 				B7BCDF5D287349FE00225F40 /* HTTPMethodTests.swift in Sources */,
 				B7BCDF6B287349FE00225F40 /* MockClients.swift in Sources */,
+				B7BCE00F287355F300225F40 /* NativeHTTPClientTests.swift in Sources */,
 				B7BCDF5E287349FE00225F40 /* HTTPErrorTests.swift in Sources */,
 				B7BCDF6D287349FE00225F40 /* Mocks.swift in Sources */,
 				B7BCDF65287349FE00225F40 /* RemoteGetUsersUseCaseTests.swift in Sources */,
+				B7BCE014287355F300225F40 /* GetUsersRequestTests.swift in Sources */,
 				B7BCDF4B287349FE00225F40 /* UsersTests.swift in Sources */,
+				B7BCDFF3287355EA00225F40 /* MockURLProtocol.swift in Sources */,
 				B7BCDEE82873486D00225F40 /* MuuvChallengeAppTests.swift in Sources */,
+				B7BCDFF4287355EA00225F40 /* URLRequestExtension.swift in Sources */,
 				B7BCDF5C287349FE00225F40 /* RequestTests.swift in Sources */,
+				B7BCE00E287355F300225F40 /* RemoteGetUsersClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

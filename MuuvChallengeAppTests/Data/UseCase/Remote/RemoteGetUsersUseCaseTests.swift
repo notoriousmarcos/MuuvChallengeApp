@@ -20,9 +20,9 @@ class RemoteGetUsersUseCaseTests: XCTestCase {
         sut.execute(page: 1) { result in
             if case let .success(users) = result {
                 // Assert
-                XCTAssertEqual(users.page, 0)
+                XCTAssertEqual(users.page, 1)
                 XCTAssertEqual(users.perPage, 6)
-                XCTAssertEqual(users.total, 6)
+                XCTAssertEqual(users.total, 1)
                 XCTAssertEqual(users.totalPages, 1)
                 XCTAssertEqual(users.data, [Mocks.user])
             } else {

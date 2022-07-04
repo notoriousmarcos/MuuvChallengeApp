@@ -1,0 +1,40 @@
+//
+//  MockURLProtocol.swift
+//  MuuvChallengeAppTests
+//
+//  Created by Marcos Vinicius Brito on 04/07/22.
+//
+
+import XCTest
+
+class MockURLProtocol: URLProtocol {
+    typealias RequestHandler = ((URLRequest) -> (URLResponse, Data?, Error?))
+    static var requestHandler: RequestHandler?
+
+    override class func canInit(with request: URLRequest) -> Bool {
+        return true
+    }
+
+    override class func canonicalRequest(for request: URLRequest) -> URLRequest {
+        request
+    }
+
+    override func startLoading() {
+        guard let (response, data, error) = Self.requestHandler?(request) else {
+            XCTFail("RequestHandler Shouldn't be nil")
+            return
+        }
+
+        client?.urlProtocol(self, didReceive: response, cacheStoragePolicy: .notAllowed)
+        if let error = error {
+            client?.urlProtocol(self, didFailWithError: error)
+        } else if let data = data {
+            client?.urlProtocol(self, didLoad: data)
+        }
+        client?.urlProtocolDidFinishLoading(self)
+    }
+
+    override func stopLoading() {
+        //
+    }
+}
