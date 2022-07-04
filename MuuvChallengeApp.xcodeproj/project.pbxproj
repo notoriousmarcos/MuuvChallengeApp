@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1383EC870A99E9B27A8CF121 /* Pods_MuuvChallengeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDE4FE4C693E1CA166F37FB /* Pods_MuuvChallengeAppTests.framework */; };
+		4E8894CBF5C9726DC2CE625C /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E96A160E9900BB52FB44A60 /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework */; };
 		B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */; };
 		B7BCDED92873486B00225F40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDED82873486B00225F40 /* ContentView.swift */; };
 		B7BCDEDB2873486C00225F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BCDEDA2873486C00225F40 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		B7BCDEE82873486D00225F40 /* MuuvChallengeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEE72873486D00225F40 /* MuuvChallengeAppTests.swift */; };
 		B7BCDEF22873486D00225F40 /* MuuvChallengeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEF12873486D00225F40 /* MuuvChallengeAppUITests.swift */; };
 		B7BCDEF42873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEF32873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift */; };
+		CB2CED280E3B15D023FEAD37 /* Pods_MuuvChallengeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F39FF5108A78E9FA74D21 /* Pods_MuuvChallengeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C8F2D0A9B604B6252795EE5 /* Pods-MuuvChallengeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeAppTests/Pods-MuuvChallengeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E96A160E9900BB52FB44A60 /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30F39FF5108A78E9FA74D21 /* Pods_MuuvChallengeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuuvChallengeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C4DD494058242D4D0D110C /* Pods-MuuvChallengeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp/Pods-MuuvChallengeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B7BCDED32873486B00225F40 /* MuuvChallengeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuuvChallengeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppApp.swift; sourceTree = "<group>"; };
 		B7BCDED82873486B00225F40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		B7BCDEED2873486D00225F40 /* MuuvChallengeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuuvChallengeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BCDEF12873486D00225F40 /* MuuvChallengeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppUITests.swift; sourceTree = "<group>"; };
 		B7BCDEF32873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B843D18BFB7A2A9A7889514A /* Pods-MuuvChallengeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeAppTests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeAppTests/Pods-MuuvChallengeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D74F792A1FCCF6DAF17CFA4A /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppUITests/Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB5038BFF894A9491CAA6F86 /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppUITests/Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEDE4FE4C693E1CA166F37FB /* Pods_MuuvChallengeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuuvChallengeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E6F692A0FD6C111D25A40F /* Pods-MuuvChallengeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp/Pods-MuuvChallengeApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2CED280E3B15D023FEAD37 /* Pods_MuuvChallengeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1383EC870A99E9B27A8CF121 /* Pods_MuuvChallengeAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E8894CBF5C9726DC2CE625C /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,8 @@
 				B7BCDEE62873486D00225F40 /* MuuvChallengeAppTests */,
 				B7BCDEF02873486D00225F40 /* MuuvChallengeAppUITests */,
 				B7BCDED42873486B00225F40 /* Products */,
+				CCC4198A02D98066E77666DA /* Pods */,
+				F5A5BC12FB2812F42A668B64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,29 @@
 			path = MuuvChallengeAppUITests;
 			sourceTree = "<group>";
 		};
+		CCC4198A02D98066E77666DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5C4DD494058242D4D0D110C /* Pods-MuuvChallengeApp.debug.xcconfig */,
+				E6E6F692A0FD6C111D25A40F /* Pods-MuuvChallengeApp.release.xcconfig */,
+				DB5038BFF894A9491CAA6F86 /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig */,
+				D74F792A1FCCF6DAF17CFA4A /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig */,
+				4C8F2D0A9B604B6252795EE5 /* Pods-MuuvChallengeAppTests.debug.xcconfig */,
+				B843D18BFB7A2A9A7889514A /* Pods-MuuvChallengeAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5A5BC12FB2812F42A668B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A30F39FF5108A78E9FA74D21 /* Pods_MuuvChallengeApp.framework */,
+				6E96A160E9900BB52FB44A60 /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework */,
+				DEDE4FE4C693E1CA166F37FB /* Pods_MuuvChallengeAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7BCDEF72873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeApp" */;
 			buildPhases = (
+				25E0BE830843635B41290F1B /* [CP] Check Pods Manifest.lock */,
 				B7BCDECF2873486B00225F40 /* Sources */,
 				B7BCDED02873486B00225F40 /* Frameworks */,
 				B7BCDED12873486B00225F40 /* Resources */,
+				B7BCDF002873497300225F40 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7BCDEFA2873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeAppTests" */;
 			buildPhases = (
+				63164CB192F47E8DE28B3175 /* [CP] Check Pods Manifest.lock */,
 				B7BCDEDF2873486D00225F40 /* Sources */,
 				B7BCDEE02873486D00225F40 /* Frameworks */,
 				B7BCDEE12873486D00225F40 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7BCDEFD2873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeAppUITests" */;
 			buildPhases = (
+				2538842017B185D44CCC7E71 /* [CP] Check Pods Manifest.lock */,
 				B7BCDEE92873486D00225F40 /* Sources */,
 				B7BCDEEA2873486D00225F40 /* Frameworks */,
 				B7BCDEEB2873486D00225F40 /* Resources */,
@@ -251,6 +295,93 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2538842017B185D44CCC7E71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuuvChallengeApp-MuuvChallengeAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25E0BE830843635B41290F1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuuvChallengeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63164CB192F47E8DE28B3175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuuvChallengeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7BCDF002873497300225F40 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B7BCDECF2873486B00225F40 /* Sources */ = {
@@ -411,6 +542,7 @@
 		};
 		B7BCDEF82873486D00225F40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C4DD494058242D4D0D110C /* Pods-MuuvChallengeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +572,7 @@
 		};
 		B7BCDEF92873486D00225F40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E6F692A0FD6C111D25A40F /* Pods-MuuvChallengeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +602,7 @@
 		};
 		B7BCDEFB2873486D00225F40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8F2D0A9B604B6252795EE5 /* Pods-MuuvChallengeAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +623,7 @@
 		};
 		B7BCDEFC2873486D00225F40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B843D18BFB7A2A9A7889514A /* Pods-MuuvChallengeAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +644,7 @@
 		};
 		B7BCDEFE2873486D00225F40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5038BFF894A9491CAA6F86 /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +663,7 @@
 		};
 		B7BCDEFF2873486D00225F40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74F792A1FCCF6DAF17CFA4A /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
