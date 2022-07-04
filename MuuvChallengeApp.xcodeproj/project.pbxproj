@@ -14,6 +14,9 @@
 		B7B76E9428736411000C096F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76E8128736411000C096F /* NetworkManager.swift */; };
 		B7B76E9828736411000C096F /* GetUsersRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76E8628736411000C096F /* GetUsersRequest.swift */; };
 		B7B76EA32873667C000C096F /* RemoteGetUsersIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EA22873667C000C096F /* RemoteGetUsersIntegrationTests.swift */; };
+		B7B76EA728736C4F000C096F /* UserListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EA628736C4F000C096F /* UserListViewModelTests.swift */; };
+		B7B76EA928738A40000C096F /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EA828738A40000C096F /* UserListViewModel.swift */; };
+		B7B76EAC28738AE2000C096F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EAB28738AE2000C096F /* Array+Extensions.swift */; };
 		B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */; };
 		B7BCDED92873486B00225F40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDED82873486B00225F40 /* ContentView.swift */; };
 		B7BCDEDB2873486C00225F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BCDEDA2873486C00225F40 /* Assets.xcassets */; };
@@ -75,6 +78,9 @@
 		B7B76E8128736411000C096F /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B7B76E8628736411000C096F /* GetUsersRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersRequest.swift; sourceTree = "<group>"; };
 		B7B76EA22873667C000C096F /* RemoteGetUsersIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteGetUsersIntegrationTests.swift; sourceTree = "<group>"; };
+		B7B76EA628736C4F000C096F /* UserListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModelTests.swift; sourceTree = "<group>"; };
+		B7B76EA828738A40000C096F /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		B7B76EAB28738AE2000C096F /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		B7BCDED32873486B00225F40 /* MuuvChallengeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuuvChallengeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppApp.swift; sourceTree = "<group>"; };
 		B7BCDED82873486B00225F40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -187,6 +193,30 @@
 			path = Integration;
 			sourceTree = "<group>";
 		};
+		B7B76EA428736C26000C096F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EA828738A40000C096F /* UserListViewModel.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B7B76EA528736C33000C096F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EA628736C4F000C096F /* UserListViewModelTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B7B76EAA28738ACC000C096F /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EAB28738AE2000C096F /* Array+Extensions.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
 		B7BCDECA2873486B00225F40 = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +242,8 @@
 		B7BCDED52873486B00225F40 /* MuuvChallengeApp */ = {
 			isa = PBXGroup;
 			children = (
+				B7B76EAA28738ACC000C096F /* Commons */,
+				B7B76EA428736C26000C096F /* Presenter */,
 				B7B76E7628736411000C096F /* Infra */,
 				B7BCDF9E28734A1300225F40 /* Data */,
 				B7BCDF6E28734A1300225F40 /* Domain */,
@@ -234,6 +266,7 @@
 		B7BCDEE62873486D00225F40 /* MuuvChallengeAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				B7B76EA528736C33000C096F /* Presenter */,
 				B7BCDF28287349FE00225F40 /* Data */,
 				B7BCDF09287349FE00225F40 /* Domain */,
 				B7BCDFF5287355F300225F40 /* Infra */,
@@ -720,10 +753,12 @@
 				B7BCDED92873486B00225F40 /* ContentView.swift in Sources */,
 				B7BCDFDA28734A1300225F40 /* Request.swift in Sources */,
 				B7B76E9128736411000C096F /* RemoteGetUsersClient.swift in Sources */,
+				B7B76EA928738A40000C096F /* UserListViewModel.swift in Sources */,
 				B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */,
 				B7BCDFD828734A1300225F40 /* HTTPClient.swift in Sources */,
 				B7B76E9828736411000C096F /* GetUsersRequest.swift in Sources */,
 				B7BCDFC528734A1300225F40 /* DomainError.swift in Sources */,
+				B7B76EAC28738AE2000C096F /* Array+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,6 +767,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B76EA32873667C000C096F /* RemoteGetUsersIntegrationTests.swift in Sources */,
+				B7B76EA728736C4F000C096F /* UserListViewModelTests.swift in Sources */,
 				B7BCDF6C287349FE00225F40 /* MockHTTPClient.swift in Sources */,
 				B7BCDF5D287349FE00225F40 /* HTTPMethodTests.swift in Sources */,
 				B7BCDF6B287349FE00225F40 /* MockClients.swift in Sources */,

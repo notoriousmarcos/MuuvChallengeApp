@@ -12,7 +12,7 @@ struct GetUsersRequest: Request {
     let baseURL: String = "https://reqres.in/api/users"
     let method: HTTPMethod = .get
     let contentType: String = "application/json"
-    var params: [String: Any]? = nil
+    var params: [String: Any]?
     let body: [String: Any]? = nil
     let headers: [String: String]? = nil
 
