@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */; };
+		B7BCDED92873486B00225F40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDED82873486B00225F40 /* ContentView.swift */; };
+		B7BCDEDB2873486C00225F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BCDEDA2873486C00225F40 /* Assets.xcassets */; };
+		B7BCDEDE2873486C00225F40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BCDEDD2873486C00225F40 /* Preview Assets.xcassets */; };
+		B7BCDEE82873486D00225F40 /* MuuvChallengeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEE72873486D00225F40 /* MuuvChallengeAppTests.swift */; };
+		B7BCDEF22873486D00225F40 /* MuuvChallengeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEF12873486D00225F40 /* MuuvChallengeAppUITests.swift */; };
+		B7BCDEF42873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEF32873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7BCDEE42873486D00225F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7BCDECB2873486B00225F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BCDED22873486B00225F40;
+			remoteInfo = MuuvChallengeApp;
+		};
+		B7BCDEEE2873486D00225F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7BCDECB2873486B00225F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BCDED22873486B00225F40;
+			remoteInfo = MuuvChallengeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7BCDED32873486B00225F40 /* MuuvChallengeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuuvChallengeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppApp.swift; sourceTree = "<group>"; };
+		B7BCDED82873486B00225F40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7BCDEDA2873486C00225F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7BCDEDD2873486C00225F40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7BCDEE32873486D00225F40 /* MuuvChallengeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuuvChallengeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BCDEE72873486D00225F40 /* MuuvChallengeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppTests.swift; sourceTree = "<group>"; };
+		B7BCDEED2873486D00225F40 /* MuuvChallengeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuuvChallengeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BCDEF12873486D00225F40 /* MuuvChallengeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppUITests.swift; sourceTree = "<group>"; };
+		B7BCDEF32873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7BCDED02873486B00225F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BCDEE02873486D00225F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BCDEEA2873486D00225F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7BCDECA2873486B00225F40 = {
+			isa = PBXGroup;
+			children = (
+				B7BCDED52873486B00225F40 /* MuuvChallengeApp */,
+				B7BCDEE62873486D00225F40 /* MuuvChallengeAppTests */,
+				B7BCDEF02873486D00225F40 /* MuuvChallengeAppUITests */,
+				B7BCDED42873486B00225F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7BCDED42873486B00225F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDED32873486B00225F40 /* MuuvChallengeApp.app */,
+				B7BCDEE32873486D00225F40 /* MuuvChallengeAppTests.xctest */,
+				B7BCDEED2873486D00225F40 /* MuuvChallengeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7BCDED52873486B00225F40 /* MuuvChallengeApp */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */,
+				B7BCDED82873486B00225F40 /* ContentView.swift */,
+				B7BCDEDA2873486C00225F40 /* Assets.xcassets */,
+				B7BCDEDC2873486C00225F40 /* Preview Content */,
+			);
+			path = MuuvChallengeApp;
+			sourceTree = "<group>";
+		};
+		B7BCDEDC2873486C00225F40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDEDD2873486C00225F40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7BCDEE62873486D00225F40 /* MuuvChallengeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDEE72873486D00225F40 /* MuuvChallengeAppTests.swift */,
+			);
+			path = MuuvChallengeAppTests;
+			sourceTree = "<group>";
+		};
+		B7BCDEF02873486D00225F40 /* MuuvChallengeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDEF12873486D00225F40 /* MuuvChallengeAppUITests.swift */,
+				B7BCDEF32873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift */,
+			);
+			path = MuuvChallengeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7BCDED22873486B00225F40 /* MuuvChallengeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BCDEF72873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeApp" */;
+			buildPhases = (
+				B7BCDECF2873486B00225F40 /* Sources */,
+				B7BCDED02873486B00225F40 /* Frameworks */,
+				B7BCDED12873486B00225F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuuvChallengeApp;
+			productName = MuuvChallengeApp;
+			productReference = B7BCDED32873486B00225F40 /* MuuvChallengeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7BCDEE22873486D00225F40 /* MuuvChallengeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BCDEFA2873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeAppTests" */;
+			buildPhases = (
+				B7BCDEDF2873486D00225F40 /* Sources */,
+				B7BCDEE02873486D00225F40 /* Frameworks */,
+				B7BCDEE12873486D00225F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7BCDEE52873486D00225F40 /* PBXTargetDependency */,
+			);
+			name = MuuvChallengeAppTests;
+			productName = MuuvChallengeAppTests;
+			productReference = B7BCDEE32873486D00225F40 /* MuuvChallengeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7BCDEEC2873486D00225F40 /* MuuvChallengeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BCDEFD2873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeAppUITests" */;
+			buildPhases = (
+				B7BCDEE92873486D00225F40 /* Sources */,
+				B7BCDEEA2873486D00225F40 /* Frameworks */,
+				B7BCDEEB2873486D00225F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7BCDEEF2873486D00225F40 /* PBXTargetDependency */,
+			);
+			name = MuuvChallengeAppUITests;
+			productName = MuuvChallengeAppUITests;
+			productReference = B7BCDEED2873486D00225F40 /* MuuvChallengeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7BCDECB2873486B00225F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B7BCDED22873486B00225F40 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B7BCDEE22873486D00225F40 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B7BCDED22873486B00225F40;
+					};
+					B7BCDEEC2873486D00225F40 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B7BCDED22873486B00225F40;
+					};
+				};
+			};
+			buildConfigurationList = B7BCDECE2873486B00225F40 /* Build configuration list for PBXProject "MuuvChallengeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7BCDECA2873486B00225F40;
+			productRefGroup = B7BCDED42873486B00225F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7BCDED22873486B00225F40 /* MuuvChallengeApp */,
+				B7BCDEE22873486D00225F40 /* MuuvChallengeAppTests */,
+				B7BCDEEC2873486D00225F40 /* MuuvChallengeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7BCDED12873486B00225F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BCDEDE2873486C00225F40 /* Preview Assets.xcassets in Resources */,
+				B7BCDEDB2873486C00225F40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BCDEE12873486D00225F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BCDEEB2873486D00225F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7BCDECF2873486B00225F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BCDED92873486B00225F40 /* ContentView.swift in Sources */,
+				B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BCDEDF2873486D00225F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BCDEE82873486D00225F40 /* MuuvChallengeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BCDEE92873486D00225F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BCDEF22873486D00225F40 /* MuuvChallengeAppUITests.swift in Sources */,
+				B7BCDEF42873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7BCDEE52873486D00225F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7BCDED22873486B00225F40 /* MuuvChallengeApp */;
+			targetProxy = B7BCDEE42873486D00225F40 /* PBXContainerItemProxy */;
+		};
+		B7BCDEEF2873486D00225F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7BCDED22873486B00225F40 /* MuuvChallengeApp */;
+			targetProxy = B7BCDEEE2873486D00225F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7BCDEF52873486D00225F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7BCDEF62873486D00225F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7BCDEF82873486D00225F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuuvChallengeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 66KNLMFJQ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notorious.MuuvChallengeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7BCDEF92873486D00225F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuuvChallengeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 66KNLMFJQ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notorious.MuuvChallengeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7BCDEFB2873486D00225F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66KNLMFJQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notorious.MuuvChallengeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuuvChallengeApp.app/MuuvChallengeApp";
+			};
+			name = Debug;
+		};
+		B7BCDEFC2873486D00225F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66KNLMFJQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notorious.MuuvChallengeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuuvChallengeApp.app/MuuvChallengeApp";
+			};
+			name = Release;
+		};
+		B7BCDEFE2873486D00225F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66KNLMFJQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notorious.MuuvChallengeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuuvChallengeApp;
+			};
+			name = Debug;
+		};
+		B7BCDEFF2873486D00225F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66KNLMFJQ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notorious.MuuvChallengeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuuvChallengeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7BCDECE2873486B00225F40 /* Build configuration list for PBXProject "MuuvChallengeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BCDEF52873486D00225F40 /* Debug */,
+				B7BCDEF62873486D00225F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BCDEF72873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BCDEF82873486D00225F40 /* Debug */,
+				B7BCDEF92873486D00225F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BCDEFA2873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BCDEFB2873486D00225F40 /* Debug */,
+				B7BCDEFC2873486D00225F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BCDEFD2873486D00225F40 /* Build configuration list for PBXNativeTarget "MuuvChallengeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BCDEFE2873486D00225F40 /* Debug */,
+				B7BCDEFF2873486D00225F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7BCDECB2873486B00225F40 /* Project object */;
+}
