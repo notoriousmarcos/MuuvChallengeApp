@@ -1,31 +1,31 @@
 //
-//  RemoteGetUserUseCase.swift
-//  WhiteLabelECommerce
+//  RemoteGetUsersUseCase.swift
+//  MuuvChallengeApp
 //
-//  Created by Marcos Vinicius Brito on 23/02/22.
+//  Created by Marcos Vinicius Brito on 04/07/22.
 //
 
 import Foundation
 
-protocol GetUserClient {
+protocol GetUsersClient {
     func dispatch(
-        userId: Int,
-        _ completion: @escaping ResultCompletionHandler<User, DomainError>
+        page: Int,
+        _ completion: @escaping ResultCompletionHandler<Users, DomainError>
     )
 }
 
-class RemoteGetUserUseCase: GetUserUseCase {
-    let client: GetUserClient
+class RemoteGetUsersUseCase: GetUsersUseCase {
+    let client: GetUsersClient
 
-    init(client: GetUserClient) {
+    init(client: GetUsersClient) {
         self.client = client
     }
 
     func execute(
-        userId: Int,
+        page: Int,
         completion: @escaping CompletionHandler
     ) {
-        client.dispatch(userId: userId) { result in
+        client.dispatch(page: page) { result in
             completion(result)
         }
     }

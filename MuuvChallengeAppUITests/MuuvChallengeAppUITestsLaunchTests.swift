@@ -8,12 +8,13 @@
 import XCTest
 
 class MuuvChallengeAppUITestsLaunchTests: XCTestCase {
-
+    // swiftlint:disable:next empty_xctest_method
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
 
     override func setUpWithError() throws {
+        super.setUpWithError()
         continueAfterFailure = false
     }
 

@@ -1,12 +1,12 @@
 //
 //  MockClients.swift
-//  WhiteLabelECommerce
+//  MuuvChallengeApp
 //
-//  Created by Marcos Vinicius Brito on 24/02/22.
+//  Created by Marcos Vinicius Brito on 04/07/22.
 //
 
 import Foundation
-@testable import WhiteLabelECommerce
+@testable import MuuvChallengeApp
 import XCTest
 
 class MockClients {
@@ -25,49 +25,10 @@ class MockClients {
     }
 }
 
-extension MockClients: GetAllProductsClient {
-    func dispatch(_ completion: @escaping ResultCompletionHandler<[Product], DomainError>) {
-        handleResult(completion)
-    }
-}
-
-extension MockClients: GetProductClient {
-    func dispatch(productId id: Int, _ completion: @escaping ResultCompletionHandler<Product, DomainError>) {
-        handleResult(completion)
-    }
-}
-
-extension MockClients: GetCurrentCartClient {
-    func dispatch(userId id: Int, _ completion: @escaping ResultCompletionHandler<Cart, DomainError>) {
-        handleResult(completion)
-    }
-}
-
-extension MockClients: CreateCartClient {
-    func dispatch(createCart cart: Cart, _ completion: @escaping ResultCompletionHandler<Cart, DomainError>) {
-        handleResult(completion)
-    }
-}
-
-extension MockClients: UpdateCartClient {
-    func dispatch(updateCart cart: Cart, _ completion: @escaping ResultCompletionHandler<Cart, DomainError>) {
-        handleResult(completion)
-    }
-}
-
-extension MockClients: AuthenticationClient {
+extension MockClients: GetUsersClient {
     func dispatch(
-        authentication: AuthenticationModel,
-        _ completion: @escaping ResultCompletionHandler<String, DomainError>
-    ) {
-        handleResult(completion)
-    }
-}
-
-extension MockClients: GetUserClient {
-    func dispatch(
-        userId: Int,
-        _ completion: @escaping ResultCompletionHandler<User, DomainError>
+        page: Int,
+        _ completion: @escaping ResultCompletionHandler<Users, DomainError>
     ) {
         handleResult(completion)
     }

@@ -1,13 +1,13 @@
 //
-//  UserList.swift
-//  WhiteLabelECommerce
+//  Users.swift
+//  MuuvChallengeApp
 //
-//  Created by Marcos Vinicius Brito on 17/02/22.
+//  Created by Marcos Vinicius Brito on 04/07/22.
 //
 
 import Foundation
 
-struct UserList: Codable, Equatable {
+struct Users: Codable, Equatable {
     let page: Int
     let perPage: Int
     let total: Int

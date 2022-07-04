@@ -16,6 +16,25 @@
 		B7BCDEE82873486D00225F40 /* MuuvChallengeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEE72873486D00225F40 /* MuuvChallengeAppTests.swift */; };
 		B7BCDEF22873486D00225F40 /* MuuvChallengeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEF12873486D00225F40 /* MuuvChallengeAppUITests.swift */; };
 		B7BCDEF42873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEF32873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift */; };
+		B7BCDF4B287349FE00225F40 /* UsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF13287349FE00225F40 /* UsersTests.swift */; };
+		B7BCDF5C287349FE00225F40 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF2A287349FE00225F40 /* RequestTests.swift */; };
+		B7BCDF5D287349FE00225F40 /* HTTPMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF2B287349FE00225F40 /* HTTPMethodTests.swift */; };
+		B7BCDF5E287349FE00225F40 /* HTTPErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF2C287349FE00225F40 /* HTTPErrorTests.swift */; };
+		B7BCDF65287349FE00225F40 /* RemoteGetUsersUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF36287349FE00225F40 /* RemoteGetUsersUseCaseTests.swift */; };
+		B7BCDF6B287349FE00225F40 /* MockClients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF41287349FE00225F40 /* MockClients.swift */; };
+		B7BCDF6C287349FE00225F40 /* MockHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF42287349FE00225F40 /* MockHTTPClient.swift */; };
+		B7BCDF6D287349FE00225F40 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF43287349FE00225F40 /* Mocks.swift */; };
+		B7BCDFB128734A1300225F40 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF7028734A1300225F40 /* TypeAlias.swift */; };
+		B7BCDFB528734A1300225F40 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF7528734A1300225F40 /* Model.swift */; };
+		B7BCDFB728734A1300225F40 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF7728734A1300225F40 /* User.swift */; };
+		B7BCDFBB28734A1300225F40 /* GetUsersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF7C28734A1300225F40 /* GetUsersUseCase.swift */; };
+		B7BCDFC528734A1300225F40 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF8728734A1300225F40 /* DomainError.swift */; };
+		B7BCDFD728734A1300225F40 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFA028734A1300225F40 /* HTTPMethod.swift */; };
+		B7BCDFD828734A1300225F40 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFA128734A1300225F40 /* HTTPClient.swift */; };
+		B7BCDFD928734A1300225F40 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFA228734A1300225F40 /* HTTPError.swift */; };
+		B7BCDFDA28734A1300225F40 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFA328734A1300225F40 /* Request.swift */; };
+		B7BCDFE128734A1300225F40 /* RemoteGetUsersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFAD28734A1300225F40 /* RemoteGetUsersUseCase.swift */; };
+		B7BCDFE628734BC000225F40 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDFE528734BC000225F40 /* Users.swift */; };
 		CB2CED280E3B15D023FEAD37 /* Pods_MuuvChallengeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F39FF5108A78E9FA74D21 /* Pods_MuuvChallengeApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +70,25 @@
 		B7BCDEED2873486D00225F40 /* MuuvChallengeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuuvChallengeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BCDEF12873486D00225F40 /* MuuvChallengeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppUITests.swift; sourceTree = "<group>"; };
 		B7BCDEF32873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7BCDF13287349FE00225F40 /* UsersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTests.swift; sourceTree = "<group>"; };
+		B7BCDF2A287349FE00225F40 /* RequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		B7BCDF2B287349FE00225F40 /* HTTPMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethodTests.swift; sourceTree = "<group>"; };
+		B7BCDF2C287349FE00225F40 /* HTTPErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPErrorTests.swift; sourceTree = "<group>"; };
+		B7BCDF36287349FE00225F40 /* RemoteGetUsersUseCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteGetUsersUseCaseTests.swift; sourceTree = "<group>"; };
+		B7BCDF41287349FE00225F40 /* MockClients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockClients.swift; sourceTree = "<group>"; };
+		B7BCDF42287349FE00225F40 /* MockHTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockHTTPClient.swift; sourceTree = "<group>"; };
+		B7BCDF43287349FE00225F40 /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		B7BCDF7028734A1300225F40 /* TypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		B7BCDF7528734A1300225F40 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B7BCDF7728734A1300225F40 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B7BCDF7C28734A1300225F40 /* GetUsersUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersUseCase.swift; sourceTree = "<group>"; };
+		B7BCDF8728734A1300225F40 /* DomainError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
+		B7BCDFA028734A1300225F40 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		B7BCDFA128734A1300225F40 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		B7BCDFA228734A1300225F40 /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		B7BCDFA328734A1300225F40 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B7BCDFAD28734A1300225F40 /* RemoteGetUsersUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteGetUsersUseCase.swift; sourceTree = "<group>"; };
+		B7BCDFE528734BC000225F40 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		B843D18BFB7A2A9A7889514A /* Pods-MuuvChallengeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeAppTests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeAppTests/Pods-MuuvChallengeAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		D74F792A1FCCF6DAF17CFA4A /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppUITests/Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB5038BFF894A9491CAA6F86 /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppUITests/Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +149,8 @@
 		B7BCDED52873486B00225F40 /* MuuvChallengeApp */ = {
 			isa = PBXGroup;
 			children = (
+				B7BCDF9E28734A1300225F40 /* Data */,
+				B7BCDF6E28734A1300225F40 /* Domain */,
 				B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */,
 				B7BCDED82873486B00225F40 /* ContentView.swift */,
 				B7BCDEDA2873486C00225F40 /* Assets.xcassets */,
@@ -130,6 +170,9 @@
 		B7BCDEE62873486D00225F40 /* MuuvChallengeAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				B7BCDF28287349FE00225F40 /* Data */,
+				B7BCDF09287349FE00225F40 /* Domain */,
+				B7BCDF3A287349FE00225F40 /* Mock */,
 				B7BCDEE72873486D00225F40 /* MuuvChallengeAppTests.swift */,
 			);
 			path = MuuvChallengeAppTests;
@@ -142,6 +185,164 @@
 				B7BCDEF32873486D00225F40 /* MuuvChallengeAppUITestsLaunchTests.swift */,
 			);
 			path = MuuvChallengeAppUITests;
+			sourceTree = "<group>";
+		};
+		B7BCDF09287349FE00225F40 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF0E287349FE00225F40 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B7BCDF0E287349FE00225F40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF13287349FE00225F40 /* UsersTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7BCDF28287349FE00225F40 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF29287349FE00225F40 /* Network */,
+				B7BCDF2D287349FE00225F40 /* UseCase */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B7BCDF29287349FE00225F40 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF2A287349FE00225F40 /* RequestTests.swift */,
+				B7BCDF2B287349FE00225F40 /* HTTPMethodTests.swift */,
+				B7BCDF2C287349FE00225F40 /* HTTPErrorTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B7BCDF2D287349FE00225F40 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF32287349FE00225F40 /* Remote */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		B7BCDF32287349FE00225F40 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF36287349FE00225F40 /* RemoteGetUsersUseCaseTests.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		B7BCDF3A287349FE00225F40 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF3F287349FE00225F40 /* Data */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		B7BCDF3F287349FE00225F40 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF40287349FE00225F40 /* Network */,
+				B7BCDF43287349FE00225F40 /* Mocks.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B7BCDF40287349FE00225F40 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF41287349FE00225F40 /* MockClients.swift */,
+				B7BCDF42287349FE00225F40 /* MockHTTPClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B7BCDF6E28734A1300225F40 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF6F28734A1300225F40 /* Utils */,
+				B7BCDF7428734A1300225F40 /* Model */,
+				B7BCDF7B28734A1300225F40 /* UseCase */,
+				B7BCDF8628734A1300225F40 /* Error */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B7BCDF6F28734A1300225F40 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF7028734A1300225F40 /* TypeAlias.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B7BCDF7428734A1300225F40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF7528734A1300225F40 /* Model.swift */,
+				B7BCDFE528734BC000225F40 /* Users.swift */,
+				B7BCDF7728734A1300225F40 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7BCDF7B28734A1300225F40 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF7C28734A1300225F40 /* GetUsersUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		B7BCDF8628734A1300225F40 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFA228734A1300225F40 /* HTTPError.swift */,
+				B7BCDF8728734A1300225F40 /* DomainError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		B7BCDF9E28734A1300225F40 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDF9F28734A1300225F40 /* Network */,
+				B7BCDFA428734A1300225F40 /* UseCase */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B7BCDF9F28734A1300225F40 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFA028734A1300225F40 /* HTTPMethod.swift */,
+				B7BCDFA128734A1300225F40 /* HTTPClient.swift */,
+				B7BCDFA328734A1300225F40 /* Request.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B7BCDFA428734A1300225F40 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFA928734A1300225F40 /* Remote */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		B7BCDFA928734A1300225F40 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				B7BCDFAD28734A1300225F40 /* RemoteGetUsersUseCase.swift */,
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 		CCC4198A02D98066E77666DA /* Pods */ = {
@@ -388,8 +589,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BCDFD928734A1300225F40 /* HTTPError.swift in Sources */,
+				B7BCDFD728734A1300225F40 /* HTTPMethod.swift in Sources */,
+				B7BCDFB528734A1300225F40 /* Model.swift in Sources */,
+				B7BCDFBB28734A1300225F40 /* GetUsersUseCase.swift in Sources */,
+				B7BCDFE628734BC000225F40 /* Users.swift in Sources */,
+				B7BCDFB128734A1300225F40 /* TypeAlias.swift in Sources */,
+				B7BCDFB728734A1300225F40 /* User.swift in Sources */,
+				B7BCDFE128734A1300225F40 /* RemoteGetUsersUseCase.swift in Sources */,
 				B7BCDED92873486B00225F40 /* ContentView.swift in Sources */,
+				B7BCDFDA28734A1300225F40 /* Request.swift in Sources */,
 				B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */,
+				B7BCDFD828734A1300225F40 /* HTTPClient.swift in Sources */,
+				B7BCDFC528734A1300225F40 /* DomainError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +609,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BCDF6C287349FE00225F40 /* MockHTTPClient.swift in Sources */,
+				B7BCDF5D287349FE00225F40 /* HTTPMethodTests.swift in Sources */,
+				B7BCDF6B287349FE00225F40 /* MockClients.swift in Sources */,
+				B7BCDF5E287349FE00225F40 /* HTTPErrorTests.swift in Sources */,
+				B7BCDF6D287349FE00225F40 /* Mocks.swift in Sources */,
+				B7BCDF65287349FE00225F40 /* RemoteGetUsersUseCaseTests.swift in Sources */,
+				B7BCDF4B287349FE00225F40 /* UsersTests.swift in Sources */,
 				B7BCDEE82873486D00225F40 /* MuuvChallengeAppTests.swift in Sources */,
+				B7BCDF5C287349FE00225F40 /* RequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

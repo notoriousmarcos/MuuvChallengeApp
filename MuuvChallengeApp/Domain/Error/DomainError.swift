@@ -1,8 +1,8 @@
 //
 //  DomainError.swift
-//  WhiteLabelECommerce
+//  MuuvChallengeApp
 //
-//  Created by Marcos Vinicius Brito on 22/02/22.
+//  Created by Marcos Vinicius Brito on 04/07/22.
 //
 
 import Foundation

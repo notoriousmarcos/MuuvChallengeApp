@@ -1,8 +1,8 @@
 //
 //  Request.swift
-//  WhiteLabelECommerce
+//  MuuvChallengeApp
 //
-//  Created by marcos.brito on 03/09/21.
+//  Created by Marcos Vinicius Brito on 04/07/22.
 //
 
 import Foundation

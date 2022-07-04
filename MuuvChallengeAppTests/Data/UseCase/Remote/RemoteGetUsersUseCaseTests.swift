@@ -1,45 +1,42 @@
 //
-//  RemoteGetUserUseCaseTests.swift
-//  WhiteLabelECommerce
+//  RemoteGetUsersUseCaseTests.swift
+//  MuuvChallengeApp
 //
-//  Created by Marcos Vinicius Brito on 23/02/22.
+//  Created by Marcos Vinicius Brito on 04/07/22.
 //
 
-@testable import WhiteLabelECommerce
+@testable import MuuvChallengeApp
 import XCTest
 
-class RemoteGetUserUseCaseTests: XCTestCase {
+class RemoteGetUsersUseCaseTests: XCTestCase {
     private let mockClient = MockClients()
-    private lazy var sut = RemoteGetUserUseCase(client: mockClient)
+    private lazy var sut = RemoteGetUsersUseCase(client: mockClient)
 
-    func testRemoteGetUserUseCase_executeWithSuccess_ShouldReturnUser() {
+    func testRemoteGetUsersUseCase_executeWithSuccess_ShouldReturnUsers() {
         // Arrange
-        mockClient.result = .success(Mocks.user)
+        mockClient.result = .success(Mocks.users)
 
         // Act
-        sut.execute(userId: 1) { result in
-            if case let .success(user) = result {
+        sut.execute(page: 1) { result in
+            if case let .success(users) = result {
                 // Assert
-                XCTAssertEqual(user.id, 1)
-                XCTAssertEqual(user.email, "a@a")
-                XCTAssertEqual(user.username, "username")
-                XCTAssertEqual(user.auth?.token, "token")
-                XCTAssertEqual(user.firstName, "firstname")
-                XCTAssertEqual(user.lastName, "lastname")
-                XCTAssertEqual(user.address, "address")
-                XCTAssertEqual(user.phone, "1111111")
+                XCTAssertEqual(users.page, 0)
+                XCTAssertEqual(users.perPage, 6)
+                XCTAssertEqual(users.total, 6)
+                XCTAssertEqual(users.totalPages, 1)
+                XCTAssertEqual(users.data, [Mocks.user])
             } else {
                 XCTFail("Should receive a valid response")
             }
         }
     }
 
-    func testRemoteGetUserUseCase_executeWithFailure_ShouldReturnError() {
+    func testRemoteGetUsersUseCase_executeWithFailure_ShouldReturnError() {
         // Arrange
         mockClient.result = .failure(.requestError(error: .badRequest))
 
         // Act
-        sut.execute(userId: 1) { result in
+        sut.execute(page: 1) { result in
             if case let .failure(error) = result,
                case let .requestError(error) = error {
                 // Assert
