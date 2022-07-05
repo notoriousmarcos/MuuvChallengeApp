@@ -22,15 +22,20 @@ struct UserListView<ViewModel: UserListViewModelProtocol>: View {
                         .navigationBarTitle("Users", displayMode: .large)
                 case .loadingFullScreen:
                     loadingView()
+                        .navigationBarTitle("Users", displayMode: .large)
                 case .error(let message):
                     VStack {
                         Text("Sorry, we get something wrong: \(message)")
                         Button(action: viewModel.onAppear, label: { Text("Retry") })
                     }
+                    .navigationBarTitle("Users", displayMode: .large)
                 case .loadingNextPage:
                     Color.clear
+                        .navigationBarTitle("Users", displayMode: .large)
             }
-        }.onAppear(perform: {
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
+        .onAppear(perform: {
             viewModel.onAppear()
         })
     }
