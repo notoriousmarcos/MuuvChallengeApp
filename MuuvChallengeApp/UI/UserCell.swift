@@ -24,18 +24,10 @@ struct UserCell: View {
             VStack(alignment: .leading) {
                 Text("\(model.firstName) \(model.lastName)")
                     .font(.headline)
-                Text(model.email)
-                    .lineLimit(4)
-                    .font(.subheadline)
             }
         }
         .padding(8)
         .cornerRadius(8)
-        .overlay(
-            RoundedRectangle(cornerRadius: 4)
-                .stroke(Color.primary, lineWidth: 1)
-        )
-        .padding(8)
     }
 }
 

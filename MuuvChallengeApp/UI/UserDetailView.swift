@@ -29,17 +29,14 @@ struct UserDetailView: View {
                 .scaledToFit()
                 .frame(idealHeight: 300, alignment: .center)
             }
-            HStack {
-                Text("\(user.lastName), ")
-                    .font(.title)
-                Text("\(user.firstName)")
-                    .font(.title2)
-            }
+            Text("\(user.lastName), \(user.firstName)")
+                .font(.title)
 
             Divider().background(Color.white)
             Text(user.email)
                 .font(.headline)
                 .multilineTextAlignment(.center)
+            Spacer()
         }.padding()
     }
 }
