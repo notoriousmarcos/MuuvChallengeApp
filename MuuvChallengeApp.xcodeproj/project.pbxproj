@@ -17,8 +17,16 @@
 		B7B76EA728736C4F000C096F /* UserListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EA628736C4F000C096F /* UserListViewModelTests.swift */; };
 		B7B76EA928738A40000C096F /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EA828738A40000C096F /* UserListViewModel.swift */; };
 		B7B76EAC28738AE2000C096F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EAB28738AE2000C096F /* Array+Extensions.swift */; };
+		B7B76EB1287445F6000C096F /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EB0287445F6000C096F /* UserListView.swift */; };
+		B7B76EB328744E0A000C096F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EB228744E0A000C096F /* UserCell.swift */; };
+		B7B76EBA28744EE3000C096F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EB628744EE3000C096F /* ImageCache.swift */; };
+		B7B76EBB28744EE3000C096F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EB728744EE3000C096F /* ImageLoader.swift */; };
+		B7B76EBC28744EE3000C096F /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EB828744EE3000C096F /* AsyncImage.swift */; };
+		B7B76EBD28744EE3000C096F /* EnviromentValuesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EB928744EE3000C096F /* EnviromentValuesExtension.swift */; };
+		B7B76EBF28744F80000C096F /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EBE28744F80000C096F /* UserDetailView.swift */; };
+		B7B76EC528745624000C096F /* UserListFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EC428745624000C096F /* UserListFactoryTests.swift */; };
+		B7B76EC7287456A6000C096F /* UserListViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76EC6287456A6000C096F /* UserListViewFactory.swift */; };
 		B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */; };
-		B7BCDED92873486B00225F40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDED82873486B00225F40 /* ContentView.swift */; };
 		B7BCDEDB2873486C00225F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BCDEDA2873486C00225F40 /* Assets.xcassets */; };
 		B7BCDEDE2873486C00225F40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BCDEDD2873486C00225F40 /* Preview Assets.xcassets */; };
 		B7BCDEE82873486D00225F40 /* MuuvChallengeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDEE72873486D00225F40 /* MuuvChallengeAppTests.swift */; };
@@ -81,9 +89,17 @@
 		B7B76EA628736C4F000C096F /* UserListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModelTests.swift; sourceTree = "<group>"; };
 		B7B76EA828738A40000C096F /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		B7B76EAB28738AE2000C096F /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		B7B76EB0287445F6000C096F /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		B7B76EB228744E0A000C096F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		B7B76EB628744EE3000C096F /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		B7B76EB728744EE3000C096F /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B7B76EB828744EE3000C096F /* AsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		B7B76EB928744EE3000C096F /* EnviromentValuesExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnviromentValuesExtension.swift; sourceTree = "<group>"; };
+		B7B76EBE28744F80000C096F /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		B7B76EC428745624000C096F /* UserListFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListFactoryTests.swift; sourceTree = "<group>"; };
+		B7B76EC6287456A6000C096F /* UserListViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewFactory.swift; sourceTree = "<group>"; };
 		B7BCDED32873486B00225F40 /* MuuvChallengeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuuvChallengeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuuvChallengeAppApp.swift; sourceTree = "<group>"; };
-		B7BCDED82873486B00225F40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7BCDEDA2873486C00225F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7BCDEDD2873486C00225F40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7BCDEE32873486D00225F40 /* MuuvChallengeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuuvChallengeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +233,69 @@
 			path = Commons;
 			sourceTree = "<group>";
 		};
+		B7B76EAF287445D4000C096F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EB428744EE3000C096F /* BaseViews */,
+				B7B76EB0287445F6000C096F /* UserListView.swift */,
+				B7B76EB228744E0A000C096F /* UserCell.swift */,
+				B7B76EBE28744F80000C096F /* UserDetailView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B7B76EB428744EE3000C096F /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EB528744EE3000C096F /* Image */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		B7B76EB528744EE3000C096F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EB628744EE3000C096F /* ImageCache.swift */,
+				B7B76EB728744EE3000C096F /* ImageLoader.swift */,
+				B7B76EB828744EE3000C096F /* AsyncImage.swift */,
+				B7B76EB928744EE3000C096F /* EnviromentValuesExtension.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B7B76EC02874559B000C096F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EC1287455B2000C096F /* Factory */,
+				B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B7B76EC1287455B2000C096F /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EC6287456A6000C096F /* UserListViewFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		B7B76EC2287455ED000C096F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EC3287455F4000C096F /* Factory */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B7B76EC3287455F4000C096F /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				B7B76EC428745624000C096F /* UserListFactoryTests.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		B7BCDECA2873486B00225F40 = {
 			isa = PBXGroup;
 			children = (
@@ -242,13 +321,13 @@
 		B7BCDED52873486B00225F40 /* MuuvChallengeApp */ = {
 			isa = PBXGroup;
 			children = (
+				B7B76EC02874559B000C096F /* Main */,
+				B7B76EAF287445D4000C096F /* UI */,
 				B7B76EAA28738ACC000C096F /* Commons */,
 				B7B76EA428736C26000C096F /* Presenter */,
 				B7B76E7628736411000C096F /* Infra */,
 				B7BCDF9E28734A1300225F40 /* Data */,
 				B7BCDF6E28734A1300225F40 /* Domain */,
-				B7BCDED62873486B00225F40 /* MuuvChallengeAppApp.swift */,
-				B7BCDED82873486B00225F40 /* ContentView.swift */,
 				B7BCDEDA2873486C00225F40 /* Assets.xcassets */,
 				B7BCDEDC2873486C00225F40 /* Preview Content */,
 			);
@@ -266,6 +345,7 @@
 		B7BCDEE62873486D00225F40 /* MuuvChallengeAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				B7B76EC2287455ED000C096F /* Main */,
 				B7B76EA528736C33000C096F /* Presenter */,
 				B7BCDF28287349FE00225F40 /* Data */,
 				B7BCDF09287349FE00225F40 /* Domain */,
@@ -740,25 +820,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B76EBA28744EE3000C096F /* ImageCache.swift in Sources */,
 				B7BCDFD928734A1300225F40 /* HTTPError.swift in Sources */,
 				B7B76E9328736411000C096F /* NativeHTTPClient.swift in Sources */,
 				B7BCDFD728734A1300225F40 /* HTTPMethod.swift in Sources */,
+				B7B76EBF28744F80000C096F /* UserDetailView.swift in Sources */,
+				B7B76EBC28744EE3000C096F /* AsyncImage.swift in Sources */,
 				B7BCDFB528734A1300225F40 /* Model.swift in Sources */,
 				B7B76E9428736411000C096F /* NetworkManager.swift in Sources */,
 				B7BCDFBB28734A1300225F40 /* GetUsersUseCase.swift in Sources */,
 				B7BCDFE628734BC000225F40 /* Users.swift in Sources */,
 				B7BCDFB128734A1300225F40 /* TypeAlias.swift in Sources */,
+				B7B76EBD28744EE3000C096F /* EnviromentValuesExtension.swift in Sources */,
 				B7BCDFB728734A1300225F40 /* User.swift in Sources */,
 				B7BCDFE128734A1300225F40 /* RemoteGetUsersUseCase.swift in Sources */,
-				B7BCDED92873486B00225F40 /* ContentView.swift in Sources */,
+				B7B76EB1287445F6000C096F /* UserListView.swift in Sources */,
 				B7BCDFDA28734A1300225F40 /* Request.swift in Sources */,
 				B7B76E9128736411000C096F /* RemoteGetUsersClient.swift in Sources */,
+				B7B76EBB28744EE3000C096F /* ImageLoader.swift in Sources */,
+				B7B76EC7287456A6000C096F /* UserListViewFactory.swift in Sources */,
 				B7B76EA928738A40000C096F /* UserListViewModel.swift in Sources */,
 				B7BCDED72873486B00225F40 /* MuuvChallengeAppApp.swift in Sources */,
 				B7BCDFD828734A1300225F40 /* HTTPClient.swift in Sources */,
 				B7B76E9828736411000C096F /* GetUsersRequest.swift in Sources */,
 				B7BCDFC528734A1300225F40 /* DomainError.swift in Sources */,
 				B7B76EAC28738AE2000C096F /* Array+Extensions.swift in Sources */,
+				B7B76EB328744E0A000C096F /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,6 +862,7 @@
 				B7BCDF5E287349FE00225F40 /* HTTPErrorTests.swift in Sources */,
 				B7BCDF6D287349FE00225F40 /* Mocks.swift in Sources */,
 				B7BCDF65287349FE00225F40 /* RemoteGetUsersUseCaseTests.swift in Sources */,
+				B7B76EC528745624000C096F /* UserListFactoryTests.swift in Sources */,
 				B7BCE014287355F300225F40 /* GetUsersRequestTests.swift in Sources */,
 				B7BCDF4B287349FE00225F40 /* UsersTests.swift in Sources */,
 				B7BCDFF3287355EA00225F40 /* MockURLProtocol.swift in Sources */,
