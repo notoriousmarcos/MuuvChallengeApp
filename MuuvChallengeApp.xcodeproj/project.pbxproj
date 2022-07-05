@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1383EC870A99E9B27A8CF121 /* Pods_MuuvChallengeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDE4FE4C693E1CA166F37FB /* Pods_MuuvChallengeAppTests.framework */; };
+		0BA05D4778734B8324B5272D /* Pods_MuuvChallengeApp_MuuvChallengeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8797F762DBB86A94B33B8112 /* Pods_MuuvChallengeApp_MuuvChallengeAppTests.framework */; };
 		4E8894CBF5C9726DC2CE625C /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E96A160E9900BB52FB44A60 /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework */; };
 		B7B76E9128736411000C096F /* RemoteGetUsersClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76E7D28736411000C096F /* RemoteGetUsersClient.swift */; };
 		B7B76E9328736411000C096F /* NativeHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B76E8028736411000C096F /* NativeHTTPClient.swift */; };
@@ -78,7 +78,9 @@
 
 /* Begin PBXFileReference section */
 		4C8F2D0A9B604B6252795EE5 /* Pods-MuuvChallengeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeAppTests/Pods-MuuvChallengeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C48F7815F641293DB66EDE8 /* Pods-MuuvChallengeApp-MuuvChallengeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppTests/Pods-MuuvChallengeApp-MuuvChallengeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E96A160E9900BB52FB44A60 /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8797F762DBB86A94B33B8112 /* Pods_MuuvChallengeApp_MuuvChallengeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuuvChallengeApp_MuuvChallengeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30F39FF5108A78E9FA74D21 /* Pods_MuuvChallengeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuuvChallengeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C4DD494058242D4D0D110C /* Pods-MuuvChallengeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp/Pods-MuuvChallengeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B7B76E7D28736411000C096F /* RemoteGetUsersClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteGetUsersClient.swift; sourceTree = "<group>"; };
@@ -132,9 +134,9 @@
 		B7BCDFFF287355F300225F40 /* NativeHTTPClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeHTTPClientTests.swift; sourceTree = "<group>"; };
 		B7BCE005287355F300225F40 /* GetUsersRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersRequestTests.swift; sourceTree = "<group>"; };
 		B843D18BFB7A2A9A7889514A /* Pods-MuuvChallengeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeAppTests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeAppTests/Pods-MuuvChallengeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9EFBB5FD66C9252A5229A55 /* Pods-MuuvChallengeApp-MuuvChallengeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppTests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppTests/Pods-MuuvChallengeApp-MuuvChallengeAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		D74F792A1FCCF6DAF17CFA4A /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppUITests/Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB5038BFF894A9491CAA6F86 /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp-MuuvChallengeAppUITests/Pods-MuuvChallengeApp-MuuvChallengeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DEDE4FE4C693E1CA166F37FB /* Pods_MuuvChallengeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuuvChallengeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E6F692A0FD6C111D25A40F /* Pods-MuuvChallengeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuuvChallengeApp.release.xcconfig"; path = "Target Support Files/Pods-MuuvChallengeApp/Pods-MuuvChallengeApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,7 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1383EC870A99E9B27A8CF121 /* Pods_MuuvChallengeAppTests.framework in Frameworks */,
+				0BA05D4778734B8324B5272D /* Pods_MuuvChallengeApp_MuuvChallengeAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +587,8 @@
 				D74F792A1FCCF6DAF17CFA4A /* Pods-MuuvChallengeApp-MuuvChallengeAppUITests.release.xcconfig */,
 				4C8F2D0A9B604B6252795EE5 /* Pods-MuuvChallengeAppTests.debug.xcconfig */,
 				B843D18BFB7A2A9A7889514A /* Pods-MuuvChallengeAppTests.release.xcconfig */,
+				5C48F7815F641293DB66EDE8 /* Pods-MuuvChallengeApp-MuuvChallengeAppTests.debug.xcconfig */,
+				B9EFBB5FD66C9252A5229A55 /* Pods-MuuvChallengeApp-MuuvChallengeAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -594,7 +598,7 @@
 			children = (
 				A30F39FF5108A78E9FA74D21 /* Pods_MuuvChallengeApp.framework */,
 				6E96A160E9900BB52FB44A60 /* Pods_MuuvChallengeApp_MuuvChallengeAppUITests.framework */,
-				DEDE4FE4C693E1CA166F37FB /* Pods_MuuvChallengeAppTests.framework */,
+				8797F762DBB86A94B33B8112 /* Pods_MuuvChallengeApp_MuuvChallengeAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -788,7 +792,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MuuvChallengeAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MuuvChallengeApp-MuuvChallengeAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1074,7 +1078,7 @@
 		};
 		B7BCDEFB2873486D00225F40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C8F2D0A9B604B6252795EE5 /* Pods-MuuvChallengeAppTests.debug.xcconfig */;
+			baseConfigurationReference = 5C48F7815F641293DB66EDE8 /* Pods-MuuvChallengeApp-MuuvChallengeAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1095,7 +1099,7 @@
 		};
 		B7BCDEFC2873486D00225F40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B843D18BFB7A2A9A7889514A /* Pods-MuuvChallengeAppTests.release.xcconfig */;
+			baseConfigurationReference = B9EFBB5FD66C9252A5229A55 /* Pods-MuuvChallengeApp-MuuvChallengeAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
